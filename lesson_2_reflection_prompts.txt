@@ -1,0 +1,20 @@
+What happens when you initialize a repository? Why do you need to do it?
+Uma pasta oculta .git é criada, para permitir que metadados do git sejam armazenados, o quer permitirá rastrear as alterações feitas pelo usuário.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+É uma área intermediária, onde posso ir adicionando, aos poucos, os arquivos para os quais pretendo fazer um commit. Isso ajuda a organizar melhor meus commits, do que fazê-lo diretamente do diretório de trabalho para o repositório.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
