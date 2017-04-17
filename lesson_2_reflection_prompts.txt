@@ -7,14 +7,21 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+A área de preparação permite acumular as alterações que compõem o conjunto de mudanças lógicas, a serem feitas, antes de se realizar o commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branchs são rótulos para o nó raiz de uma ramificação de commits. Assim, posso criar várias alternativas paralelas de código para explorar e comparar funcionalidades do sistema.
+Isso permite que se mantenha o branch master sempre estável e funcional, sendo feitos todos os testes, experimentos e correções de bugs, nos novos brunchs. Pode ser visto como uma troca de contexto.
+Além disso, facilita o trabalho colaborativo.
 
 How do the diagrams help you visualize the branch structure?
+Permite visualizar todas as linhas de edição de código paralelas e entender como o código está evoluindo.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Os commits são intercalados em um único ramo do diagrama, mantendo-se a ordem cronológica. O diagrama representa os commits paralelos.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+O comando merge facilita a evolução do código, ao permitir incorporar à estrutura do histórico (log) os commits de uma linha paralela de alterações do código. Porém, há casos em que o merge não funcionará, devido ao conflito decorrente de alterações em um mesmo trecho de código. Nessas situações, a fusão manual do código é necessária e o uso do merge não é possível. Também podemos imaginar situações em que o merge é possível, mas não desejado?
